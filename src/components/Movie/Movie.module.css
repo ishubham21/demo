@@ -1,0 +1,141 @@
+.movie {
+  width: 70%;
+  margin: auto;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__title {
+  text-transform: uppercase;
+  color: #fffde8;
+}
+
+.movie__title h1 {
+  font-family: "Montserrat-Bold";
+  font-size: 78px;
+  word-spacing: 8px;
+  letter-spacing: 4px;
+}
+
+.movie__title .category {
+  display: flex;
+  margin-top: 10px;
+  font-family: "Montserrat-Regular";
+}
+
+.movie__title .category p {
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.watch__btn {
+  width: 200px;
+  margin-top: 40px;
+  background-color: #e5bc00;
+  padding: 15px 20px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.watch__btn p {
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+}
+
+.watch__btn img {
+  max-width: 20px;
+}
+
+.in__theatres {
+  margin-top: auto;
+  letter-spacing: 1.5px;
+  font-family: "Montserrat-Regular";
+  color: #fffde8;
+  font-size: 20px;
+}
+
+.in__theatres .date {
+  color: #e5bc00;
+  margin-top: 10px;
+}
+
+.in__theatres {
+  position: absolute;
+  bottom: 20%;
+  margin-top: 40px;
+}
+
+@media (max-width: 851px) {
+  .movie {
+    left: 30%;
+    font-size: 16px;
+  }
+
+  .movie__title h1 {
+    line-height: 80px;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 541px) {
+  .movie {
+    left: 32%;
+  }
+
+  .seekDots {
+    left: 20px;
+  }
+
+  .watch__btn {
+    margin-top: 30px;
+    width: 165px;
+  }
+
+  .movie__title .category p,
+  .watch__btn p,
+  .in__theatres p,
+  .in__theatres .date {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 431px) {
+  .movie {
+    left: 32%;
+  }
+  .movie__title h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .watch__btn {
+    width: 160px;
+    padding: 10px 20px;
+  }
+
+  .movie__title .category p,
+  .watch__btn p,
+  .in__theatres p,
+  .in__theatres .date {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .movie {
+    left: 32%;
+  }
+  .movie__title h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .watch__btn {
+    width: 160px;
+    padding: 10px 20px;
+  }
+}

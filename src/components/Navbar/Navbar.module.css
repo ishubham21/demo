@@ -1,0 +1,66 @@
+.container {
+  padding: 30px 25px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.container .nav__link {
+  text-decoration: none;
+  color: #fffde8;
+  margin: 0 30px;
+  font-family: "Montserrat-Medium";
+  text-transform: uppercase;
+}
+
+.container a:focus {
+  outline: none;
+}
+
+.container .link__active {
+  color: #dbb847;
+  font-family: "Montserrat-Semibold";
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user img {
+  display: block;
+  cursor: pointer;
+}
+
+.user img:nth-child(1) {
+  max-width: 25px;
+  margin-right: 10px;
+}
+
+.user img:nth-child(2) {
+  max-width: 55px;
+  border-radius: 50%;
+}
+
+@media (max-width: 915px) {
+  .logo img{
+    max-width: 120px;
+  }
+  .sections{
+    display: none;
+  }
+}
+
+@media(max-width: 530px){
+  .container{
+    padding: 30px 20px;
+  }
+}
