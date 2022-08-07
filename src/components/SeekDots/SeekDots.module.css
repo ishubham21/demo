@@ -26,3 +26,15 @@
   max-width: 100%;
   background-color: #a39d98;
 }
+
+@media (max-width: 541px) {
+  .seekDots {
+    left: 20px;
+  }
+}
+
+@media (max-width: 325px) {
+  .seekDots {
+    left: 10px;
+  }
+}
